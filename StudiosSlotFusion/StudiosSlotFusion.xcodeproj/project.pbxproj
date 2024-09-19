@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5826BC55E12760028EBBD1A9 /* Pods_StudiosSlotFusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FDACA8A9E34D1C8F8C8A7B /* Pods_StudiosSlotFusion.framework */; };
+		FF2467C12C9C0274002CF777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467C02C9C0274002CF777 /* AppDelegate.swift */; };
+		FF2467C32C9C0274002CF777 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467C22C9C0274002CF777 /* SceneDelegate.swift */; };
+		FF2467C52C9C0274002CF777 /* StuGameHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467C42C9C0274002CF777 /* StuGameHallViewController.swift */; };
+		FF2467C82C9C0274002CF777 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF2467C72C9C0274002CF777 /* Base */; };
+		FF2467CA2C9C0275002CF777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2467C92C9C0275002CF777 /* Assets.xcassets */; };
+		FF2467CD2C9C0275002CF777 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF2467CC2C9C0275002CF777 /* Base */; };
+		FF2467D52C9C0358002CF777 /* StuHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467D42C9C0358002CF777 /* StuHomeViewController.swift */; };
+		FF2467D72C9C0379002CF777 /* StuSlotGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467D62C9C0379002CF777 /* StuSlotGameViewController.swift */; };
+		FF2467D92C9C042E002CF777 /* StuFlyGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467D82C9C042E002CF777 /* StuFlyGameViewController.swift */; };
+		FF2467DB2C9C0442002CF777 /* StuFlyGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467DA2C9C0442002CF777 /* StuFlyGameScene.swift */; };
+		FF2467DD2C9C048A002CF777 /* UIView+Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467DC2C9C048A002CF777 /* UIView+Corner.swift */; };
+		FF2467DF2C9C04A9002CF777 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467DE2C9C04A9002CF777 /* UIImage+Resize.swift */; };
+		FF2467E12C9C04C6002CF777 /* UIViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467E02C9C04C6002CF777 /* UIViewController+Audio.swift */; };
+		FF2467E32C9C04DA002CF777 /* UIViewController+Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467E22C9C04DA002CF777 /* UIViewController+Back.swift */; };
+		FF2467E62C9C0504002CF777 /* E 45 Aircraft_obj.mtl in Resources */ = {isa = PBXBuildFile; fileRef = FF2467E42C9C0504002CF777 /* E 45 Aircraft_obj.mtl */; };
+		FF2467E72C9C0504002CF777 /* Jet.obj in Resources */ = {isa = PBXBuildFile; fileRef = FF2467E52C9C0504002CF777 /* Jet.obj */; };
+		FF2467E92C9C0C35002CF777 /* StuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2467E82C9C0C35002CF777 /* StuNavigationController.swift */; };
+		FF2467EF2C9C115D002CF777 /* StuPrivicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2467EE2C9C115D002CF777 /* StuPrivicyViewController.m */; };
+		FF2467F22C9C14B5002CF777 /* win.json in Resources */ = {isa = PBXBuildFile; fileRef = FF2467F02C9C14B5002CF777 /* win.json */; };
+		FF2467F32C9C14B5002CF777 /* bigWin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF2467F12C9C14B5002CF777 /* bigWin.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1695779D9ACB10E764F0A305 /* Pods-StudiosSlotFusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudiosSlotFusion.release.xcconfig"; path = "Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion.release.xcconfig"; sourceTree = "<group>"; };
+		30FDACA8A9E34D1C8F8C8A7B /* Pods_StudiosSlotFusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudiosSlotFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B6643A4EB80C49105E35CB /* Pods-StudiosSlotFusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudiosSlotFusion.debug.xcconfig"; path = "Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2467BD2C9C0274002CF777 /* StudiosSlotFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudiosSlotFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2467C02C9C0274002CF777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF2467C22C9C0274002CF777 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF2467C42C9C0274002CF777 /* StuGameHallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuGameHallViewController.swift; sourceTree = "<group>"; };
+		FF2467C72C9C0274002CF777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF2467C92C9C0275002CF777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF2467CC2C9C0275002CF777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF2467CE2C9C0275002CF777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2467D42C9C0358002CF777 /* StuHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuHomeViewController.swift; sourceTree = "<group>"; };
+		FF2467D62C9C0379002CF777 /* StuSlotGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuSlotGameViewController.swift; sourceTree = "<group>"; };
+		FF2467D82C9C042E002CF777 /* StuFlyGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuFlyGameViewController.swift; sourceTree = "<group>"; };
+		FF2467DA2C9C0442002CF777 /* StuFlyGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuFlyGameScene.swift; sourceTree = "<group>"; };
+		FF2467DC2C9C048A002CF777 /* UIView+Corner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corner.swift"; sourceTree = "<group>"; };
+		FF2467DE2C9C04A9002CF777 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		FF2467E02C9C04C6002CF777 /* UIViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Audio.swift"; sourceTree = "<group>"; };
+		FF2467E22C9C04DA002CF777 /* UIViewController+Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Back.swift"; sourceTree = "<group>"; };
+		FF2467E42C9C0504002CF777 /* E 45 Aircraft_obj.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "E 45 Aircraft_obj.mtl"; sourceTree = "<group>"; };
+		FF2467E52C9C0504002CF777 /* Jet.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jet.obj; sourceTree = "<group>"; };
+		FF2467E82C9C0C35002CF777 /* StuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuNavigationController.swift; sourceTree = "<group>"; };
+		FF2467EC2C9C115D002CF777 /* StudiosSlotFusion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudiosSlotFusion-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF2467ED2C9C115D002CF777 /* StuPrivicyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StuPrivicyViewController.h; sourceTree = "<group>"; };
+		FF2467EE2C9C115D002CF777 /* StuPrivicyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StuPrivicyViewController.m; sourceTree = "<group>"; };
+		FF2467F02C9C14B5002CF777 /* win.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = win.json; sourceTree = "<group>"; };
+		FF2467F12C9C14B5002CF777 /* bigWin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigWin.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF2467BA2C9C0274002CF777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5826BC55E12760028EBBD1A9 /* Pods_StudiosSlotFusion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BB1212D835275BB90180AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30FDACA8A9E34D1C8F8C8A7B /* Pods_StudiosSlotFusion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95CEA12C6C7167FA388D4DB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75B6643A4EB80C49105E35CB /* Pods-StudiosSlotFusion.debug.xcconfig */,
+				1695779D9ACB10E764F0A305 /* Pods-StudiosSlotFusion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF2467B42C9C0274002CF777 = {
+			isa = PBXGroup;
+			children = (
+				FF2467BF2C9C0274002CF777 /* StudiosSlotFusion */,
+				FF2467BE2C9C0274002CF777 /* Products */,
+				95CEA12C6C7167FA388D4DB8 /* Pods */,
+				60BB1212D835275BB90180AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF2467BE2C9C0274002CF777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2467BD2C9C0274002CF777 /* StudiosSlotFusion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2467BF2C9C0274002CF777 /* StudiosSlotFusion */ = {
+			isa = PBXGroup;
+			children = (
+				FF2467C02C9C0274002CF777 /* AppDelegate.swift */,
+				FF2467C22C9C0274002CF777 /* SceneDelegate.swift */,
+				FF2467E82C9C0C35002CF777 /* StuNavigationController.swift */,
+				FF2467C42C9C0274002CF777 /* StuGameHallViewController.swift */,
+				FF2467D42C9C0358002CF777 /* StuHomeViewController.swift */,
+				FF2467D62C9C0379002CF777 /* StuSlotGameViewController.swift */,
+				FF2467F12C9C14B5002CF777 /* bigWin.mp3 */,
+				FF2467F02C9C14B5002CF777 /* win.json */,
+				FF2467D82C9C042E002CF777 /* StuFlyGameViewController.swift */,
+				FF2467DA2C9C0442002CF777 /* StuFlyGameScene.swift */,
+				FF2467DC2C9C048A002CF777 /* UIView+Corner.swift */,
+				FF2467DE2C9C04A9002CF777 /* UIImage+Resize.swift */,
+				FF2467E02C9C04C6002CF777 /* UIViewController+Audio.swift */,
+				FF2467E22C9C04DA002CF777 /* UIViewController+Back.swift */,
+				FF2467ED2C9C115D002CF777 /* StuPrivicyViewController.h */,
+				FF2467EE2C9C115D002CF777 /* StuPrivicyViewController.m */,
+				FF2467E42C9C0504002CF777 /* E 45 Aircraft_obj.mtl */,
+				FF2467E52C9C0504002CF777 /* Jet.obj */,
+				FF2467C62C9C0274002CF777 /* Main.storyboard */,
+				FF2467C92C9C0275002CF777 /* Assets.xcassets */,
+				FF2467CB2C9C0275002CF777 /* LaunchScreen.storyboard */,
+				FF2467CE2C9C0275002CF777 /* Info.plist */,
+				FF2467EC2C9C115D002CF777 /* StudiosSlotFusion-Bridging-Header.h */,
+			);
+			path = StudiosSlotFusion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF2467BC2C9C0274002CF777 /* StudiosSlotFusion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2467D12C9C0275002CF777 /* Build configuration list for PBXNativeTarget "StudiosSlotFusion" */;
+			buildPhases = (
+				0A5776537DEDFC9B138E3230 /* [CP] Check Pods Manifest.lock */,
+				FF2467B92C9C0274002CF777 /* Sources */,
+				FF2467BA2C9C0274002CF777 /* Frameworks */,
+				FF2467BB2C9C0274002CF777 /* Resources */,
+				5B3877BADE09C8BFBAA961C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudiosSlotFusion;
+			productName = StudiosSlotFusion;
+			productReference = FF2467BD2C9C0274002CF777 /* StudiosSlotFusion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2467B52C9C0274002CF777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FF2467BC2C9C0274002CF777 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+				};
+			};
+			buildConfigurationList = FF2467B82C9C0274002CF777 /* Build configuration list for PBXProject "StudiosSlotFusion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF2467B42C9C0274002CF777;
+			productRefGroup = FF2467BE2C9C0274002CF777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF2467BC2C9C0274002CF777 /* StudiosSlotFusion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF2467BB2C9C0274002CF777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2467E62C9C0504002CF777 /* E 45 Aircraft_obj.mtl in Resources */,
+				FF2467CA2C9C0275002CF777 /* Assets.xcassets in Resources */,
+				FF2467F32C9C14B5002CF777 /* bigWin.mp3 in Resources */,
+				FF2467F22C9C14B5002CF777 /* win.json in Resources */,
+				FF2467E72C9C0504002CF777 /* Jet.obj in Resources */,
+				FF2467CD2C9C0275002CF777 /* Base in Resources */,
+				FF2467C82C9C0274002CF777 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A5776537DEDFC9B138E3230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudiosSlotFusion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3877BADE09C8BFBAA961C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2467B92C9C0274002CF777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2467D72C9C0379002CF777 /* StuSlotGameViewController.swift in Sources */,
+				FF2467E12C9C04C6002CF777 /* UIViewController+Audio.swift in Sources */,
+				FF2467C52C9C0274002CF777 /* StuGameHallViewController.swift in Sources */,
+				FF2467D52C9C0358002CF777 /* StuHomeViewController.swift in Sources */,
+				FF2467DD2C9C048A002CF777 /* UIView+Corner.swift in Sources */,
+				FF2467C12C9C0274002CF777 /* AppDelegate.swift in Sources */,
+				FF2467DF2C9C04A9002CF777 /* UIImage+Resize.swift in Sources */,
+				FF2467E32C9C04DA002CF777 /* UIViewController+Back.swift in Sources */,
+				FF2467EF2C9C115D002CF777 /* StuPrivicyViewController.m in Sources */,
+				FF2467E92C9C0C35002CF777 /* StuNavigationController.swift in Sources */,
+				FF2467D92C9C042E002CF777 /* StuFlyGameViewController.swift in Sources */,
+				FF2467DB2C9C0442002CF777 /* StuFlyGameScene.swift in Sources */,
+				FF2467C32C9C0274002CF777 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF2467C62C9C0274002CF777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2467C72C9C0274002CF777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF2467CB2C9C0275002CF777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2467CC2C9C0275002CF777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF2467CF2C9C0275002CF777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF2467D02C9C0275002CF777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2467D22C9C0275002CF777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B6643A4EB80C49105E35CB /* Pods-StudiosSlotFusion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudiosSlotFusion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Studios Slot Fusion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudiosSlotFusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "StudiosSlotFusion/StudiosSlotFusion-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF2467D32C9C0275002CF777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1695779D9ACB10E764F0A305 /* Pods-StudiosSlotFusion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudiosSlotFusion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Studios Slot Fusion";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudiosSlotFusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "StudiosSlotFusion/StudiosSlotFusion-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2467B82C9C0274002CF777 /* Build configuration list for PBXProject "StudiosSlotFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2467CF2C9C0275002CF777 /* Debug */,
+				FF2467D02C9C0275002CF777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2467D12C9C0275002CF777 /* Build configuration list for PBXNativeTarget "StudiosSlotFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2467D22C9C0275002CF777 /* Debug */,
+				FF2467D32C9C0275002CF777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2467B52C9C0274002CF777 /* Project object */;
+}
