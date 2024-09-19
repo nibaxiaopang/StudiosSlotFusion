@@ -28,6 +28,9 @@
 		FF2467EF2C9C115D002CF777 /* StuPrivicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2467EE2C9C115D002CF777 /* StuPrivicyViewController.m */; };
 		FF2467F22C9C14B5002CF777 /* win.json in Resources */ = {isa = PBXBuildFile; fileRef = FF2467F02C9C14B5002CF777 /* win.json */; };
 		FF2467F32C9C14B5002CF777 /* bigWin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF2467F12C9C14B5002CF777 /* bigWin.mp3 */; };
+		FF2467FA2C9C18D6002CF777 /* MomentAdsDataBannerManagers.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2467F42C9C18D6002CF777 /* MomentAdsDataBannerManagers.m */; };
+		FF2467FB2C9C18D6002CF777 /* UIViewController+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2467F72C9C18D6002CF777 /* UIViewController+Extentsion.m */; };
+		FF2467FC2C9C18D6002CF777 /* MomentNReachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2467F82C9C18D6002CF777 /* MomentNReachManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,12 @@
 		FF2467EE2C9C115D002CF777 /* StuPrivicyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StuPrivicyViewController.m; sourceTree = "<group>"; };
 		FF2467F02C9C14B5002CF777 /* win.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = win.json; sourceTree = "<group>"; };
 		FF2467F12C9C14B5002CF777 /* bigWin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigWin.mp3; sourceTree = "<group>"; };
+		FF2467F42C9C18D6002CF777 /* MomentAdsDataBannerManagers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentAdsDataBannerManagers.m; sourceTree = "<group>"; };
+		FF2467F52C9C18D6002CF777 /* MomentAdsDataBannerManagers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentAdsDataBannerManagers.h; sourceTree = "<group>"; };
+		FF2467F62C9C18D6002CF777 /* MomentNReachManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentNReachManager.h; sourceTree = "<group>"; };
+		FF2467F72C9C18D6002CF777 /* UIViewController+Extentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extentsion.m"; sourceTree = "<group>"; };
+		FF2467F82C9C18D6002CF777 /* MomentNReachManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentNReachManager.m; sourceTree = "<group>"; };
+		FF2467F92C9C18D6002CF777 /* UIViewController+Extentsion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extentsion.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +135,12 @@
 				FF2467E22C9C04DA002CF777 /* UIViewController+Back.swift */,
 				FF2467ED2C9C115D002CF777 /* StuPrivicyViewController.h */,
 				FF2467EE2C9C115D002CF777 /* StuPrivicyViewController.m */,
+				FF2467F52C9C18D6002CF777 /* MomentAdsDataBannerManagers.h */,
+				FF2467F42C9C18D6002CF777 /* MomentAdsDataBannerManagers.m */,
+				FF2467F62C9C18D6002CF777 /* MomentNReachManager.h */,
+				FF2467F82C9C18D6002CF777 /* MomentNReachManager.m */,
+				FF2467F92C9C18D6002CF777 /* UIViewController+Extentsion.h */,
+				FF2467F72C9C18D6002CF777 /* UIViewController+Extentsion.m */,
 				FF2467E42C9C0504002CF777 /* E 45 Aircraft_obj.mtl */,
 				FF2467E52C9C0504002CF777 /* Jet.obj */,
 				FF2467C62C9C0274002CF777 /* Main.storyboard */,
@@ -149,6 +164,7 @@
 				FF2467BA2C9C0274002CF777 /* Frameworks */,
 				FF2467BB2C9C0274002CF777 /* Resources */,
 				5B3877BADE09C8BFBAA961C9 /* [CP] Embed Pods Frameworks */,
+				128DE1B49350524F69B370D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +249,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		128DE1B49350524F69B370D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudiosSlotFusion/Pods-StudiosSlotFusion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5B3877BADE09C8BFBAA961C9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,8 +300,11 @@
 				FF2467E32C9C04DA002CF777 /* UIViewController+Back.swift in Sources */,
 				FF2467EF2C9C115D002CF777 /* StuPrivicyViewController.m in Sources */,
 				FF2467E92C9C0C35002CF777 /* StuNavigationController.swift in Sources */,
+				FF2467FA2C9C18D6002CF777 /* MomentAdsDataBannerManagers.m in Sources */,
 				FF2467D92C9C042E002CF777 /* StuFlyGameViewController.swift in Sources */,
+				FF2467FC2C9C18D6002CF777 /* MomentNReachManager.m in Sources */,
 				FF2467DB2C9C0442002CF777 /* StuFlyGameScene.swift in Sources */,
+				FF2467FB2C9C18D6002CF777 /* UIViewController+Extentsion.m in Sources */,
 				FF2467C32C9C0274002CF777 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +462,11 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudiosSlotFusion/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Studios Slot Fusion";
+				INFOPLIST_KEY_CFBundleDisplayName = "Studios Slots Fusion";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Studios Slots Fusion needs to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Studios Slots Fusion needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Studios Slots Fusion needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Studios Slots Fusion needs to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -438,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.StudiosSlotFusion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.S.A.StudiosSlotFusion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -464,7 +504,11 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudiosSlotFusion/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Studios Slot Fusion";
+				INFOPLIST_KEY_CFBundleDisplayName = "Studios Slots Fusion";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Studios Slots Fusion needs to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Studios Slots Fusion needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Studios Slots Fusion needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Studios Slots Fusion needs to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.StudiosSlotFusion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.S.A.StudiosSlotFusion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

@@ -6,17 +6,28 @@
 //
 
 import UIKit
-
+import AppsFlyerLib
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+class AppDelegate: UIResponder, UIApplicationDelegate,AppsFlyerLibDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let appsFlyer = AppsFlyerLib.shared()
+        appsFlyer.appsFlyerDevKey = "R9CH5Zs5bytFg" + "Tj6sm" + "kgG8"
+        appsFlyer.appleAppID = "6698872119"
+        appsFlyer.waitForATTUserAuthorization(timeoutInterval: 60)
+        appsFlyer.delegate = self
         return true
     }
 
+    func onConversionDataSuccess(_ conversionInfo: [AnyHashable : Any]) {
+        print("success appsflyer")
+    }
+    
+    func onConversionDataFail(_ error: Error) {
+        print("error appsflyer")
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="04Q-7m-SkV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x25-71-O7B">
     <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -22,9 +22,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDs-VG-EaP">
-                                <rect key="frame" x="217.33333333333337" y="20" width="332" height="332"/>
+                                <rect key="frame" x="207" y="20" width="353" height="353"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="od1-hE-Tp0">
-                                    <rect key="frame" x="0.0" y="0.0" width="332" height="332"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="353"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                                 <blurEffect style="extraLight"/>
@@ -35,19 +35,19 @@
                                 </userDefinedRuntimeAttributes>
                             </visualEffectView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQe-BW-YmD">
-                                <rect key="frame" x="217.33333333333337" y="20" width="332" height="332"/>
+                                <rect key="frame" x="207" y="20" width="353" height="353"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="LQe-BW-YmD" secondAttribute="height" id="Bjw-ZQ-Nj9"/>
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEZ-zX-Wcv">
-                                <rect key="frame" x="79" y="251.66666666666666" width="118.33333333333331" height="100.33333333333334"/>
+                                <rect key="frame" x="20" y="322.66666666666669" width="167" height="50.333333333333314"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="50"/>
                                 <color key="textColor" name="lbl1"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6L-kb-Ia6">
-                                <rect key="frame" x="569.33333333333337" y="20" width="203.66666666666663" height="332"/>
+                                <rect key="frame" x="580" y="20" width="252" height="353"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal">
@@ -58,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BxY-SL-2oT">
-                                <rect key="frame" x="79" y="20" width="80" height="40"/>
+                                <rect key="frame" x="20" y="20" width="80" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GOl-i5-3gc"/>
                                     <constraint firstAttribute="width" constant="80" id="lWJ-PP-fLM"/>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmQ-rD-ms8">
-                                <rect key="frame" x="616.33333333333337" y="86" width="110" height="200"/>
+                                <rect key="frame" x="651" y="96.666666666666686" width="110" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="2Lx-Ht-HgQ"/>
                                     <constraint firstAttribute="height" constant="200" id="PSb-N6-fqs"/>
@@ -148,12 +148,12 @@ LUCK</string>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="x25-71-O7B" kind="relationship" relationship="rootViewController" id="t5i-6h-6H9"/>
+                        <segue destination="3aU-It-E9N" kind="relationship" relationship="rootViewController" id="e9v-fv-uw1"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OSL-EV-qro" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.69014084507043" y="-28.244274809160306"/>
+            <point key="canvasLocation" x="1577" y="-225"/>
         </scene>
         <!--Stu Privicy View Controller-->
         <scene sceneID="b4F-Iu-P24">
@@ -163,6 +163,10 @@ LUCK</string>
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jR-en-zIW">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <color key="backgroundColor" name="bg"/>
+                            </view>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="43b-LT-uIA">
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -172,7 +176,7 @@ LUCK</string>
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZe-3w-A2L">
-                                <rect key="frame" x="703" y="20" width="70" height="35"/>
+                                <rect key="frame" x="762" y="20" width="70" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="Ee6-ey-2B8"/>
                                     <constraint firstAttribute="height" constant="35" id="uzl-a5-Ky4"/>
@@ -181,6 +185,9 @@ LUCK</string>
                                 <state key="normal" backgroundImage="x">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="popAction:" destination="9rR-8O-8kl" eventType="touchUpInside" id="DCF-l2-ArT"/>
+                                </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Qx1-fd-1FG">
                                 <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
@@ -189,17 +196,28 @@ LUCK</string>
                         <viewLayoutGuide key="safeArea" id="epQ-H4-9X6"/>
                         <color key="backgroundColor" name="bg"/>
                         <constraints>
+                            <constraint firstItem="4jR-en-zIW" firstAttribute="leading" secondItem="Tky-rE-xkg" secondAttribute="leading" id="8DL-At-Hff"/>
                             <constraint firstAttribute="trailing" secondItem="43b-LT-uIA" secondAttribute="trailing" id="8JU-L7-rjg"/>
+                            <constraint firstAttribute="bottom" secondItem="4jR-en-zIW" secondAttribute="bottom" id="8ux-wd-daJ"/>
                             <constraint firstItem="epQ-H4-9X6" firstAttribute="trailing" secondItem="qZe-3w-A2L" secondAttribute="trailing" constant="20" id="CAb-rU-FGe"/>
                             <constraint firstItem="43b-LT-uIA" firstAttribute="leading" secondItem="Tky-rE-xkg" secondAttribute="leading" id="KFj-db-DcB"/>
                             <constraint firstItem="Qx1-fd-1FG" firstAttribute="centerX" secondItem="Tky-rE-xkg" secondAttribute="centerX" id="LRj-oG-jdO"/>
                             <constraint firstItem="qZe-3w-A2L" firstAttribute="top" secondItem="epQ-H4-9X6" secondAttribute="top" constant="20" id="avc-nJ-6R2"/>
                             <constraint firstItem="Qx1-fd-1FG" firstAttribute="centerY" secondItem="Tky-rE-xkg" secondAttribute="centerY" id="bH6-0W-tLt"/>
+                            <constraint firstAttribute="trailing" secondItem="4jR-en-zIW" secondAttribute="trailing" id="dDu-Fm-PRl"/>
                             <constraint firstAttribute="bottom" secondItem="43b-LT-uIA" secondAttribute="bottom" id="gzb-Dv-t88"/>
+                            <constraint firstItem="4jR-en-zIW" firstAttribute="top" secondItem="Tky-rE-xkg" secondAttribute="top" id="stg-jM-pJt"/>
                             <constraint firstItem="43b-LT-uIA" firstAttribute="top" secondItem="epQ-H4-9X6" secondAttribute="top" id="wP1-P4-WvG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CJT-09-KfW"/>
+                    <connections>
+                        <outlet property="bConstant" destination="gzb-Dv-t88" id="th6-BP-49y"/>
+                        <outlet property="backBtn" destination="qZe-3w-A2L" id="kbE-Wy-X8k"/>
+                        <outlet property="bgView" destination="4jR-en-zIW" id="uy0-Dp-xKk"/>
+                        <outlet property="indicatorView" destination="Qx1-fd-1FG" id="67A-uZ-wph"/>
+                        <outlet property="mmWebView" destination="43b-LT-uIA" id="ASJ-XL-d3S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asq-Gh-vtn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,7 +252,7 @@ LUCK</string>
                                 <blurEffect style="dark"/>
                             </visualEffectView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="2wa-Ut-lym">
-                                <rect key="frame" x="119" y="272" width="654" height="80"/>
+                                <rect key="frame" x="60" y="293" width="772" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJM-ak-D0j">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
@@ -249,7 +267,7 @@ LUCK</string>
                                         </state>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.30000001192092896" maxValue="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="C5k-89-IuM">
-                                        <rect key="frame" x="138" y="0.0" width="518" height="81"/>
+                                        <rect key="frame" x="138" y="0.0" width="636" height="81"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="minimumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="maximumTrackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -279,7 +297,7 @@ LUCK</string>
                                 </constraints>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xS1-4a-MF7">
-                                <rect key="frame" x="79" y="20" width="57.333333333333343" height="27.666666666666671"/>
+                                <rect key="frame" x="20.000000000000004" y="20" width="57.333333333333343" height="27.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="22"/>
                                 <color key="textColor" name="shd"/>
                                 <nil key="highlightedColor"/>
@@ -287,7 +305,7 @@ LUCK</string>
                                 <size key="shadowOffset" width="0.5" height="0.5"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPs-Bo-5tW">
-                                <rect key="frame" x="703" y="20" width="70" height="35"/>
+                                <rect key="frame" x="762" y="20" width="70" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="1RF-sf-K2w"/>
                                     <constraint firstAttribute="height" constant="35" id="1eP-M7-eG6"/>
@@ -388,7 +406,7 @@ LUCK</string>
                                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="3aU-It-E9N" kind="push" id="XQC-OZ-Whd"/>
+                                                    <segue destination="04Q-7m-SkV" kind="presentation" id="Mm0-Ps-Pye"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -431,10 +449,13 @@ LUCK</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4VA-1m-cMh"/>
+                    <connections>
+                        <outlet property="activityView" destination="nzD-bB-uHV" id="ewt-QD-kfe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ydl-HB-68t" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="882.3943661971831" y="-28.244274809160306"/>
+            <point key="canvasLocation" x="889" y="-195"/>
         </scene>
         <!--Stu Home View Controller-->
         <scene sceneID="IMt-EQ-Bor">
@@ -445,19 +466,19 @@ LUCK</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kce-Jb-DDz">
-                                <rect key="frame" x="79" y="40" width="694" height="292"/>
+                                <rect key="frame" x="20" y="40" width="812" height="313"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3Qx-24-EPX">
-                                        <rect key="frame" x="0.0" y="0.0" width="1228" height="292"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1312" height="313"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ule-KN-VQS">
-                                                <rect key="frame" x="0.0" y="0.0" width="292" height="292"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="S8W-7b-sOg">
-                                                    <rect key="frame" x="0.0" y="0.0" width="292" height="292"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="g1" translatesAutoresizingMaskIntoConstraints="NO" id="MDV-Lf-XzR">
-                                                            <rect key="frame" x="10" y="10" width="272" height="272"/>
+                                                            <rect key="frame" x="10" y="10" width="293" height="293"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="10"/>
@@ -471,7 +492,7 @@ LUCK</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bn-gL-S0v">
-                                                            <rect key="frame" x="0.0" y="0.0" width="292" height="292"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                             <state key="normal">
                                                                 <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -481,13 +502,13 @@ LUCK</string>
                                                             </connections>
                                                         </button>
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WdL-Uq-Hqv">
-                                                            <rect key="frame" x="10" y="232" width="272" height="50"/>
+                                                            <rect key="frame" x="10" y="253" width="293" height="50"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KhD-Hx-nDw">
-                                                                <rect key="frame" x="0.0" y="0.0" width="272" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="293" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STUDIOS SLOT GAME" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuB-9V-4C8">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="272" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="293" height="50"/>
                                                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
                                                                         <color key="textColor" name="cell"/>
                                                                         <nil key="highlightedColor"/>
@@ -541,13 +562,13 @@ LUCK</string>
                                                 </userDefinedRuntimeAttributes>
                                             </visualEffectView>
                                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2A5-97-eiD">
-                                                <rect key="frame" x="312" y="0.0" width="292" height="292"/>
+                                                <rect key="frame" x="333" y="0.0" width="313" height="313"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lbF-g4-fWy">
-                                                    <rect key="frame" x="0.0" y="0.0" width="292" height="292"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="g2" translatesAutoresizingMaskIntoConstraints="NO" id="CjZ-Lv-uS9">
-                                                            <rect key="frame" x="10" y="10" width="272" height="272"/>
+                                                            <rect key="frame" x="10" y="10" width="293" height="293"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="10"/>
@@ -561,7 +582,7 @@ LUCK</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGs-RP-90w">
-                                                            <rect key="frame" x="0.0" y="0.0" width="292" height="292"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                             <state key="normal">
                                                                 <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -571,13 +592,13 @@ LUCK</string>
                                                             </connections>
                                                         </button>
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXy-R5-iT4">
-                                                            <rect key="frame" x="10" y="232" width="272" height="50"/>
+                                                            <rect key="frame" x="10" y="253" width="293" height="50"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yKx-0S-teb">
-                                                                <rect key="frame" x="0.0" y="0.0" width="272" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="293" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPACE FUSION GAME" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF2-mh-tDg">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="272" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="293" height="50"/>
                                                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
                                                                         <color key="textColor" name="lbl1"/>
                                                                         <nil key="highlightedColor"/>
@@ -631,13 +652,13 @@ LUCK</string>
                                                 </userDefinedRuntimeAttributes>
                                             </visualEffectView>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="De3-Uy-Ni8">
-                                                <rect key="frame" x="624" y="0.0" width="292" height="292"/>
+                                                <rect key="frame" x="666" y="0.0" width="313" height="313"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ejc-3r-kyo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="292" height="292"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZN-sy-tWc">
-                                                            <rect key="frame" x="10" y="30" width="272" height="252"/>
+                                                            <rect key="frame" x="10" y="30" width="293" height="273"/>
                                                             <string key="text">Enjoy two distinct gaming experiences—slot machine excitement with a Halloween twist and dynamic 3D space action.
 </string>
                                                             <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
@@ -645,7 +666,7 @@ LUCK</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xul-W5-Dew">
-                                                            <rect key="frame" x="142" y="0.0" width="150" height="60"/>
+                                                            <rect key="frame" x="163" y="0.0" width="150" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="150" id="15G-di-n5O"/>
                                                                 <constraint firstAttribute="height" constant="60" id="FAo-aw-8Yw"/>
@@ -689,13 +710,13 @@ LUCK</string>
                                                 </userDefinedRuntimeAttributes>
                                             </visualEffectView>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lx2-zn-Vh7">
-                                                <rect key="frame" x="936" y="0.0" width="292" height="292"/>
+                                                <rect key="frame" x="999" y="0.0" width="313" height="313"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ijd-e6-bLm">
-                                                    <rect key="frame" x="0.0" y="0.0" width="292" height="292"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="313"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLL-St-z6O">
-                                                            <rect key="frame" x="10" y="30" width="272" height="252"/>
+                                                            <rect key="frame" x="10" y="30" width="293" height="273"/>
                                                             <string key="text">Enjoy two distinct gaming experiences—slot machine excitement with a Halloween twist and dynamic 3D space action.
 </string>
                                                             <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
@@ -703,7 +724,7 @@ LUCK</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ige-2o-Z8g">
-                                                            <rect key="frame" x="142" y="0.0" width="150" height="60"/>
+                                                            <rect key="frame" x="163" y="0.0" width="150" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="60" id="E0u-5A-0Vn"/>
                                                                 <constraint firstAttribute="width" constant="150" id="SIu-ui-3sV"/>

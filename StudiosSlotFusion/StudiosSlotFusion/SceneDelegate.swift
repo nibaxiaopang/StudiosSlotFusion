@@ -6,7 +6,8 @@
 //
 
 import UIKit
-
+import AppTrackingTransparency
+import AppsFlyerLib
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -29,6 +30,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        AppsFlyerLib.shared().start()
+        
+        DispatchQueue.global().asyncAfter(deadline: .now() + 0.4) {
+            if #available(iOS 14, *) {
+                ATTrackingManager.requestTrackingAuthorization { status in
+                }
+            }
+        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {

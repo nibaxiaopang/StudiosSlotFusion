@@ -1,16 +1,22 @@
 PODS:
+  - AppsFlyerFramework (6.14.5):
+    - AppsFlyerFramework/Main (= 6.14.5)
+  - AppsFlyerFramework/Main (6.14.5)
   - lottie-ios (4.4.3)
 
 DEPENDENCIES:
+  - AppsFlyerFramework
   - lottie-ios
 
 SPEC REPOS:
   trunk:
+    - AppsFlyerFramework
     - lottie-ios
 
 SPEC CHECKSUMS:
+  AppsFlyerFramework: 6bd90198428b9646a5653f8e0f19de529788b70e
   lottie-ios: fcb5e73e17ba4c983140b7d21095c834b3087418
 
-PODFILE CHECKSUM: 2d08502100179bb3f9bc1c4dff6ead0b318a9445
+PODFILE CHECKSUM: bd8c32fecb63b6b564c1f5c9a64df10a3ed6de08
 
 COCOAPODS: 1.15.2
