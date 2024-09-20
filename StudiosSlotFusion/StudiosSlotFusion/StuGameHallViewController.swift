@@ -9,6 +9,7 @@ import UIKit
 
 class StuGameHallViewController: UIViewController {
 
+    @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var activityView: UIActivityIndicatorView!
     
     override func viewDidLoad() {
@@ -17,6 +18,36 @@ class StuGameHallViewController: UIViewController {
         
         self.momentLoadADsData()
         // Do any additional setup after loading the view.
+        
+        let orientation = UIDevice.current.orientation
+
+        if orientation.isLandscape {
+            configOrientation(true)
+        } else if orientation.isPortrait {
+            configOrientation(false)
+        } else {
+            configOrientation(false)
+        }
+    }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        
+        coordinator.animate(alongsideTransition: { _ in
+            if size.width > size.height {
+                self.configOrientation(true)
+            } else {
+                self.configOrientation(false)
+            }
+        }, completion: nil)
+    }
+    
+    private func configOrientation(_ isLandscape: Bool) {
+        if isLandscape {
+            self.stackView.axis = .horizontal
+        } else {
+            self.stackView.axis = .vertical
+        }
     }
     
     private func momentLoadADsData() {
