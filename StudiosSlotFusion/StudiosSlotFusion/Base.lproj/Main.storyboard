@@ -15,7 +15,7 @@
             <objects>
                 <viewController storyboardIdentifier="SlotGameVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yf4-o1-AqO" customClass="StuSlotGameViewController" customModule="StudiosSlotFusion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ukN-ae-j1K">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="dxs-BX-mNH">
@@ -24,7 +24,7 @@
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDs-VG-EaP">
                                 <rect key="frame" x="40" y="20" width="273.66666666666669" height="984"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="od1-hE-Tp0">
-                                    <rect key="frame" x="0.0" y="0.0" width="274" height="984"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="273.66666666666669" height="984"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </view>
                                 <blurEffect style="extraLight"/>
@@ -41,7 +41,7 @@
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEZ-zX-Wcv">
-                                <rect key="frame" x="20" y="953.66666666666674" width="0.0" height="50.333333333333258"/>
+                                <rect key="frame" x="20" y="953.66666666666663" width="0.0" height="50.333333333333371"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="50"/>
                                 <color key="textColor" name="lbl1"/>
                                 <nil key="highlightedColor"/>
@@ -144,7 +144,6 @@ LUCK</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="04Q-7m-SkV" customClass="StuNavigationController" customModule="StudiosSlotFusion" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VTb-q2-FOo">
-                        <rect key="frame" x="0.0" y="-10" width="0.0" height="0.0"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -154,22 +153,22 @@ LUCK</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OSL-EV-qro" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1577" y="-225"/>
+            <point key="canvasLocation" x="1863" y="-201"/>
         </scene>
         <!--Stu Privicy View Controller-->
         <scene sceneID="b4F-Iu-P24">
             <objects>
                 <viewController storyboardIdentifier="StuPrivicyViewController" id="9rR-8O-8kl" customClass="StuPrivicyViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tky-rE-xkg">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jR-en-zIW">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" name="bg"/>
                             </view>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="43b-LT-uIA">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -191,7 +190,7 @@ LUCK</string>
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Qx1-fd-1FG">
-                                <rect key="frame" x="186.66666666666666" y="411" width="20" height="20"/>
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="epQ-H4-9X6"/>
@@ -229,17 +228,17 @@ LUCK</string>
             <objects>
                 <viewController storyboardIdentifier="GameVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O8I-bj-bb8" customClass="StuFlyGameViewController" customModule="StudiosSlotFusion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zq8-b2-C70">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AIq-Ny-UvY">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="c9o-MB-LoS">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="usl-wj-rnk">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </view>
                                     </subviews>
@@ -253,7 +252,7 @@ LUCK</string>
                                 <blurEffect style="dark"/>
                             </visualEffectView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="2wa-Ut-lym">
-                                <rect key="frame" x="60" y="742" width="313" height="80"/>
+                                <rect key="frame" x="60" y="752" width="313" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJM-ak-D0j">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
@@ -283,7 +282,7 @@ LUCK</string>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWf-3k-eJD">
-                                <rect key="frame" x="32.333333333333314" y="3.3333333333333321" width="44.333333333333343" height="37.333333333333343"/>
+                                <rect key="frame" x="32.333333333333329" y="3.3333333333333321" width="44.333333333333329" height="37.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="30"/>
                                 <color key="textColor" name="shd"/>
                                 <nil key="highlightedColor"/>
@@ -407,7 +406,7 @@ LUCK</string>
                                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="04Q-7m-SkV" kind="presentation" id="Mm0-Ps-Pye"/>
+                                                    <segue destination="04Q-7m-SkV" kind="presentation" modalPresentationStyle="fullScreen" id="Mm0-Ps-Pye"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -463,23 +462,23 @@ LUCK</string>
             <objects>
                 <viewController storyboardIdentifier="HomeVC" id="3aU-It-E9N" customClass="StuHomeViewController" customModule="StudiosSlotFusion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nyT-Gj-xKw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kce-Jb-DDz">
-                                <rect key="frame" x="20" y="40" width="353" height="762"/>
+                                <rect key="frame" x="20" y="40" width="353" height="772"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3Qx-24-EPX">
-                                        <rect key="frame" x="0.0" y="0.0" width="3108" height="762"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="3148" height="772"/>
                                         <subviews>
                                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ule-KN-VQS">
-                                                <rect key="frame" x="0.0" y="0.0" width="762" height="762"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="772" height="772"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="S8W-7b-sOg">
-                                                    <rect key="frame" x="0.0" y="0.0" width="762" height="762"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="772" height="772"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="g1" translatesAutoresizingMaskIntoConstraints="NO" id="MDV-Lf-XzR">
-                                                            <rect key="frame" x="10" y="10" width="742" height="742"/>
+                                                            <rect key="frame" x="10" y="10" width="752" height="752"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="10"/>
@@ -493,7 +492,7 @@ LUCK</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bn-gL-S0v">
-                                                            <rect key="frame" x="0.0" y="0.0" width="762" height="762"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="772" height="772"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                             <state key="normal">
                                                                 <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -503,13 +502,13 @@ LUCK</string>
                                                             </connections>
                                                         </button>
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WdL-Uq-Hqv">
-                                                            <rect key="frame" x="10" y="702" width="742" height="50"/>
+                                                            <rect key="frame" x="10" y="712" width="752" height="50"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="KhD-Hx-nDw">
-                                                                <rect key="frame" x="0.0" y="0.0" width="742" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="752" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STUDIOS SLOT GAME" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuB-9V-4C8">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="742" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="752" height="50"/>
                                                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
                                                                         <color key="textColor" name="cell"/>
                                                                         <nil key="highlightedColor"/>
@@ -563,13 +562,13 @@ LUCK</string>
                                                 </userDefinedRuntimeAttributes>
                                             </visualEffectView>
                                             <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2A5-97-eiD">
-                                                <rect key="frame" x="782" y="0.0" width="762" height="762"/>
+                                                <rect key="frame" x="792" y="0.0" width="772" height="772"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lbF-g4-fWy">
-                                                    <rect key="frame" x="0.0" y="0.0" width="762" height="762"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="772" height="772"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="g2" translatesAutoresizingMaskIntoConstraints="NO" id="CjZ-Lv-uS9">
-                                                            <rect key="frame" x="10" y="10" width="742" height="742"/>
+                                                            <rect key="frame" x="10" y="10" width="752" height="752"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                     <real key="value" value="10"/>
@@ -583,7 +582,7 @@ LUCK</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGs-RP-90w">
-                                                            <rect key="frame" x="0.0" y="0.0" width="762" height="762"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="772" height="772"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                             <state key="normal">
                                                                 <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -593,13 +592,13 @@ LUCK</string>
                                                             </connections>
                                                         </button>
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXy-R5-iT4">
-                                                            <rect key="frame" x="10" y="702" width="742" height="50"/>
+                                                            <rect key="frame" x="10" y="712" width="752" height="50"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="yKx-0S-teb">
-                                                                <rect key="frame" x="0.0" y="0.0" width="742" height="50"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="752" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPACE FUSION GAME" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF2-mh-tDg">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="742" height="50"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="752" height="50"/>
                                                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
                                                                         <color key="textColor" name="lbl1"/>
                                                                         <nil key="highlightedColor"/>
@@ -653,13 +652,13 @@ LUCK</string>
                                                 </userDefinedRuntimeAttributes>
                                             </visualEffectView>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="De3-Uy-Ni8">
-                                                <rect key="frame" x="1564" y="0.0" width="762" height="762"/>
+                                                <rect key="frame" x="1584" y="0.0" width="772" height="772"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ejc-3r-kyo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="762" height="762"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="772" height="772"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZN-sy-tWc">
-                                                            <rect key="frame" x="10" y="30" width="742" height="722"/>
+                                                            <rect key="frame" x="10" y="30" width="752" height="732"/>
                                                             <string key="text">Enjoy two distinct gaming experiences—slot machine excitement with a Halloween twist and dynamic 3D space action.
 </string>
                                                             <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
@@ -667,7 +666,7 @@ LUCK</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xul-W5-Dew">
-                                                            <rect key="frame" x="612" y="0.0" width="150" height="60"/>
+                                                            <rect key="frame" x="622" y="0.0" width="150" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="150" id="15G-di-n5O"/>
                                                                 <constraint firstAttribute="height" constant="60" id="FAo-aw-8Yw"/>
@@ -711,13 +710,13 @@ LUCK</string>
                                                 </userDefinedRuntimeAttributes>
                                             </visualEffectView>
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lx2-zn-Vh7">
-                                                <rect key="frame" x="2346" y="0.0" width="762" height="762"/>
+                                                <rect key="frame" x="2376" y="0.0" width="772" height="772"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Ijd-e6-bLm">
-                                                    <rect key="frame" x="0.0" y="0.0" width="762" height="762"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="772" height="772"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLL-St-z6O">
-                                                            <rect key="frame" x="10" y="30" width="742" height="722"/>
+                                                            <rect key="frame" x="10" y="30" width="752" height="732"/>
                                                             <string key="text">Enjoy two distinct gaming experiences—slot machine excitement with a Halloween twist and dynamic 3D space action.
 </string>
                                                             <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
@@ -725,7 +724,7 @@ LUCK</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ige-2o-Z8g">
-                                                            <rect key="frame" x="612" y="0.0" width="150" height="60"/>
+                                                            <rect key="frame" x="622" y="0.0" width="150" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="60" id="E0u-5A-0Vn"/>
                                                                 <constraint firstAttribute="width" constant="150" id="SIu-ui-3sV"/>
@@ -759,6 +758,7 @@ LUCK</string>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <constraints>
+                                                    <constraint firstAttribute="width" secondItem="lx2-zn-Vh7" secondAttribute="height" id="Eyg-yl-j6o"/>
                                                     <constraint firstAttribute="width" secondItem="lx2-zn-Vh7" secondAttribute="height" id="RHk-71-wzx"/>
                                                 </constraints>
                                                 <blurEffect style="dark"/>
@@ -769,9 +769,6 @@ LUCK</string>
                                                 </userDefinedRuntimeAttributes>
                                             </visualEffectView>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="lx2-zn-Vh7" firstAttribute="width" secondItem="lx2-zn-Vh7" secondAttribute="height" id="Eyg-yl-j6o"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -829,7 +826,7 @@ LUCK</string>
             <color red="0.67100000381469727" green="0.99000000953674316" blue="0.39899998903274536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
